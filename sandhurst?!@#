@@ -1,0 +1,19 @@
+local mod = getsenv(game:GetService("Players").LocalPlayer.Backpack.FreeGun["[C] Firearm Local"])
+    local othermod = require(game:GetService("Players").LocalPlayer.Backpack.FreeGun["[R] Firearm Config"])
+
+    othermod["reloadtime"] = 0
+    mod["reloadtime"] = 0
+
+    mod["clipsize"] = math.huge
+    othermod["clipsize"] = math.huge
+
+    mod["rounds"] = math.huge
+    othermod["rounds"] = math.huge
+
+    mod["firerate"] = math.huge
+    othermod["firerate"] = math.huge
+
+    othermod["singleshot"] = false
+
+    mod["spread_max"] = 0
+    othermod["spread_max"] = 0
